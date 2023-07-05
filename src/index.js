@@ -4,11 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Home from './components/Home';
-import Resume from './components/Resume';
 
 import {
   createBrowserRouter,
@@ -24,20 +22,12 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/about",
-        element: <About />,
-      },
-      {
         path: "/contact",
         element: <Contact />,
       },
       {
         path: "/projects",
         element: <Projects />,
-      },
-      {
-        path: "/resume",
-        element: <Resume />,
       }
     ]
   },
